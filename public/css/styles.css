@@ -1,0 +1,51 @@
+main.row{
+    flex-wrap: nowrap;
+}
+
+.block-one{
+    padding: 20px;
+}
+
+.block-two{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.block-two > div{
+    margin-bottom: 20px;
+}
+
+.block-two > div .info{
+    margin-top: 30px;
+}
+
+.block-two .title,
+.block-two .description{
+    margin-bottom: 10px;
+}
+
+.block-two .info-block{
+    background: #dddddd;
+    padding: 10px 10px 30px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+button{
+    outline: none !important;
+}
+
+.react-datepicker-wrapper{
+    width: 100%;
+}
+
+.react-datepicker-wrapper > div{
+    display: flex;
+    width: 100%;
+}
+
+button.position-absolute{
+    top: 3px;
+    right: 5px;
+}
